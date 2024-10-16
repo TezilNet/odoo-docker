@@ -93,7 +93,7 @@ VOLUME ["/var/lib/odoo", "/mnt/extra-addons"]
 EXPOSE 8069 8071 8072
 
 ENV PYTHONUNBUFFERED=1 \
-    PORT=8000
+    PORT=8069
 
 # Set the default config file
 ENV ODOO_RC /etc/odoo/odoo.conf
