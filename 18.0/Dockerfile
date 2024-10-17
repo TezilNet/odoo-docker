@@ -92,6 +92,7 @@ VOLUME ["/var/lib/odoo", "/mnt/extra-addons"]
 # Expose Odoo services
 EXPOSE 8069 8071 8072
 
+# Set some environment variables
 ENV PYTHONUNBUFFERED=1 \
     PORT=8069
 
